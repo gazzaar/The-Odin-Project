@@ -62,12 +62,12 @@ body {
 .container {
   max-width: 1300px;
   margin: 0 auto;
-  padding-top: 98px;
+  padding-top: 64px;
+  padding-bottom: 64px;
 }
 
 .hero-container {
   background-color: #1f2937;
-  height: 100vh;
 }
 
 .hero {
@@ -126,7 +126,7 @@ body {
 
 .characters.container {
   padding-top: 0;
-  margin-bottom: 48px;
+  padding-bottom: 88px;
 }
 
 .characters {
@@ -139,7 +139,7 @@ body {
   text-align: center;
   font-size: 36px;
   margin-top: 48px;
-  margin-bottom: 32px;
+  margin-bottom: 24px;
   font-weight: bold;
   color: #1f2937;
 }
@@ -177,9 +177,9 @@ body {
 
 /* Style Quotes  */
 
-.quotes-container {
+/* .quotes-container {
   padding-bottom: 48px;
-}
+} */
 .quotes {
   background-color: #e5e7eb;
 }
