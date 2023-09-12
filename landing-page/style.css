@@ -6,6 +6,7 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
+  overflow: hidden;
 }
 
 .header {
@@ -50,4 +51,68 @@ body {
 }
 .nav-links .link a:focus {
   outline: none;
+}
+
+/* Hero section style */
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding-top: 98px;
+}
+
+.hero-container {
+  background-color: #1f2937;
+  height: 100vh;
+}
+
+.hero {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  gap: 64px;
+}
+
+.hero-text-container {
+  flex-basis: 50%;
+}
+
+.hero-main-text {
+  color: #f9faf8;
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 32px;
+}
+
+.hero-text-description {
+  font-size: 18px;
+  color: #e5e7eb;
+  margin-bottom: 32px;
+  line-height: 1.6;
+  letter-spacing: 0.6px;
+}
+
+.btn {
+  font-size: 18px;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:focus {
+  outline: 0;
+}
+
+.btn-hero {
+  background-color: #3882f6;
+  color: #e5e7eb;
+}
+
+.hero-image-container {
+  flex-basis: 50%;
+}
+
+.img-hero {
+  border-radius: 2px;
+  width: 100%;
 }
