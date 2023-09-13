@@ -8,14 +8,15 @@ function getComputerChoice() {
 
 getComputerChoice();
 
-let userSelection;
+function getUserSelection() {
+  let userSelection = prompt("Please type a rule ").trim().toLocaleLowerCase();
+  return userSelection;
+}
 
 let youWin = 0;
 let computerWin = 0;
 
 function playRound(playerSelection, computerSelection) {
-  userSelection = prompt("Please type a rule ").trim().toLocaleLowerCase();
-
   // both equal
   if (playerSelection === computerSelection) {
     console.log(`${playerSelection}:`, `${computerSelection}:`, "equal");
@@ -56,8 +57,8 @@ function playRound(playerSelection, computerSelection) {
 
 function game() {
   let n = 5;
-  for (let i = 0; i <= n; i++) {
-    playRound(userSelection, getComputerChoice());
+  for (let i = 1; i <= n; i++) {
+    playRound(getUserSelection(), getComputerChoice());
   }
 
   if (youWin === computerWin) {
