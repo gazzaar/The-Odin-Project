@@ -3,6 +3,8 @@
 - Rock Paper Scissors game, play it with computer for five times and the that has a higher score wins.
 - This was the first JS project from TOP
 
+- [👉Live demo](https://fathyelgazar.github.io/The-Odin-Project/rock-paper-scissors)
+
 #### What I have learned from this Project ?
 
 - Working with functions that takes another function as a parameter
