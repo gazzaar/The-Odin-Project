@@ -1,12 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script defer src="script.js"></script>
-  <title>Rock Paper Scissors</title>
-</head>
-<body>
-  
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Rock Paper Scissors</title>
+  </head>
+  <body>
+    <h1>Rock Paper Scissors</h1>
+    <div class="buttons" id="buttons">
+      <button class="button" id="rock">✊</button>
+      <button class="button" id="paper">✋</button>
+      <button class="button" id="scissors">✌️</button>
+    </div>
+    <div class="score">
+      <div class="computer-score">
+        Computer score: <span id="computer-score">0</span>
+      </div>
+      <div class="u-score">Your score: <span id="u-score">0</span></div>
+    </div>
+    <h2 class="winner" id="winner"></h2>
+  </body>
 </html>
