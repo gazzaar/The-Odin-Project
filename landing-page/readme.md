@@ -2,7 +2,7 @@
 
 Simple landing page from TOP
 
-- [👉Live demo](https://fathyelgazar.github.io/The-Odin-Project/landing-page/)
+- [👉Live demo](https://gazzaar.github.io/The-Odin-Project/landing-page/)
 
 ### Things I have learned through this project
 
